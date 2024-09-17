@@ -7,7 +7,7 @@ const Homepage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch("http://localhost:8000/shorten", {
+    fetch("https://url-shortener-backend-ka11.onrender.com/shorten", {
       method: "POST", 
       headers: {
         "Content-Type": "application/json", 
